@@ -1,7 +1,3 @@
-Claro! Aqui está uma comparação objetiva entre **PHP** e **Java**, com foco nos **pontos fortes e fracos de cada um**, pensando na escolha de uma linguagem para o **desenvolvimento de um sistema nacional de saúde**:
-
----
-
 ## ✅ **Java vs PHP – Comparação para Sistema Nacional de Saúde**
 
 ### 🧠 **1. Arquitetura e Escalabilidade**
@@ -9,6 +5,8 @@ Claro! Aqui está uma comparação objetiva entre **PHP** e **Java**, com foco n
 | **Java** | **PHP** |
 |----------|---------|
 | ✅ Forte para aplicações **robustas, escaláveis e distribuídas** (microservices, mensageria, filas, etc.) | ⚠️ Tradicionalmente voltado a aplicações web simples. Escalar pode exigir soluções adicionais como filas e caches externos |
+---
+
 | ✅ Suporte nativo a **multithreading e concorrência** | ⚠️ Cada requisição roda isolada, sem multithread nativo |
 
 > **Conclusão**: Java é mais indicado para sistemas de larga escala e complexidade.
@@ -23,8 +21,6 @@ Claro! Aqui está uma comparação objetiva entre **PHP** e **Java**, com foco n
 | ✅ Integração fácil com **mensageria, bancos NoSQL, serviços REST e SOAP** | ⚠️ Algumas integrações exigem bibliotecas externas ou soluções customizadas |
 
 > **Conclusão**: Ambos têm bons frameworks, mas Java tem vantagem em aplicações corporativas complexas.
-
----
 
 ### 🛡️ **3. Segurança**
 
@@ -110,5 +106,3 @@ Dado o contexto de um **sistema nacional de saúde** com exigência de:
 - Alto volume de dados e usuários simultâneos
 
 A linguagem mais adequada é **Java**, principalmente com o ecossistema **Spring Boot + JPA + Hibernate**, que é amplamente usado em soluções de governo e saúde pública ao redor do mundo.
-
-Se quiser, posso te ajudar a montar um quadro técnico de decisão para apresentar. Deseja isso?
